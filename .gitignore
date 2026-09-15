@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Local runtime artifacts
+fused_audit_local_db/
+audit.json
+trace.json
+output/
+outputs/
+
+# Experiment outputs written by the pipeline
+*_checkpoint*.json
+*_results*.json
+
+# Secrets: never commit API keys
+.env
+.env.*

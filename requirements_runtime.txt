@@ -1,0 +1,6 @@
+# Required runtime dependencies.
+tree-sitter
+tree-sitter-solidity
+httpx
+openai
+z3-solver
